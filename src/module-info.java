@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module projecte_torneig {
-}
