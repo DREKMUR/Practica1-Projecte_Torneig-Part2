@@ -26,4 +26,26 @@ public class Nif {
 		System.out.println(nif1);
 	}
 
+	//GETTERS I SETTERS
+	public int getDni() {
+		return dni;
+	}
+
+
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
+
+
+	public char getLletra() {
+		return lletra;
+	}
+
+
+	public void setLletra(char lletra) {
+		this.lletra = lletra;
+	}
+	
+
+	
 }

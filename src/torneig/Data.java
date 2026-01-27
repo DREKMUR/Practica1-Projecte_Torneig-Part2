@@ -20,6 +20,32 @@ public class Data {
 		return dia+"/"+mes+"/"+any;
 	}
 
+	
+	//GETTERS I SETTERS
+	public int getDia() {
+		return dia;
+	}
+
+	public void setDia(int dia) {
+		this.dia = dia;
+	}
+
+	public int getMes() {
+		return mes;
+	}
+
+	public void setMes(int mes) {
+		this.mes = mes;
+	}
+
+	public int getAny() {
+		return any;
+	}
+
+	public void setAny(int any) {
+		this.any = any;
+	}
+
 	public static void main(String[] args) {
 
 		Data provatada = new Data(9, 8, 2001);

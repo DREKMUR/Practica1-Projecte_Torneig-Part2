@@ -17,6 +17,15 @@ public class Torneig {
 	public String toString() {
 		return "Data del torneig:  "+data;
 	}
+
+	//GETTERS I SETTERS
+	public Data getData() {
+		return data;
+	}
+
+	public void setData(Data data) {
+		this.data = data;
+	}
 	
 	
 
