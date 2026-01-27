@@ -2,3 +2,4 @@
 Somos Diego Mejias y Derek Murillo
 
 Diego: Yo hago Data, Persona, Nif y Torneig.
+Derek: Yo hago Jugador, Partit y Marcador.
