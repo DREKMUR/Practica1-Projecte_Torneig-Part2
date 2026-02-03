@@ -28,21 +28,45 @@ public class Persona {
         this.nif = nif;
     }
 
-    /** @return el nom complet */
+    /**
+     * Obté el nom complet de la persona.
+     *
+     * @return el nom complet
+     */
     public String getNom_complet() { return nom_complet; }
 
-    /** @param nom_complet nou nom complet */
+    /**
+     * Estableix el nom complet de la persona.
+     *
+     * @param nom_complet nou nom complet
+     */
     public void setNom_complet(String nom_complet) { this.nom_complet = nom_complet; }
 
-    /** @return la data de naixement */
+    /**
+     * Obté la data de naixement.
+     *
+     * @return la data de naixement
+     */
     public Data getData_naixement() { return data_naixement; }
 
-    /** @param data_naixement nova data de naixement */
+    /**
+     * Estableix la data de naixement.
+     *
+     * @param data_naixement nova data de naixement
+     */
     public void setData_naixement(Data data_naixement) { this.data_naixement = data_naixement; }
 
-    /** @return el NIF */
+    /**
+     * Obté el NIF de la persona.
+     *
+     * @return el NIF
+     */
     public Nif getNif() { return nif; }
 
-    /** @param nif nou NIF */
+    /**
+     * Estableix el NIF de la persona.
+     *
+     * @param nif nou NIF
+     */
     public void setNif(Nif nif) { this.nif = nif; }
 }

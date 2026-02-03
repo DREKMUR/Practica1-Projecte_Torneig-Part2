@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"torneig","c":"Jugador","l":"getNumeroLlicencia()"},{"p":"torneig","c":"Jugador","l":"Jugador(String, Data, Nif, int)","u":"%3Cinit%3E(java.lang.String,torneig.Data,torneig.Nif,int)"}];updateSearchResults();

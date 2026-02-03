@@ -39,21 +39,45 @@ public class Data {
         return dia + "/" + mes + "/" + any;
     }
 
-    /** @return el dia */
+    /**
+     * Obté el dia del mes.
+     *
+     * @return el dia
+     */
     public int getDia() { return dia; }
 
-    /** @param dia nou dia */
+    /**
+     * Estableix un nou dia.
+     *
+     * @param dia nou dia
+     */
     public void setDia(int dia) { this.dia = dia; }
 
-    /** @return el mes */
+    /**
+     * Obté el mes de l'any.
+     *
+     * @return el mes
+     */
     public int getMes() { return mes; }
 
-    /** @param mes nou mes */
+    /**
+     * Estableix un nou mes.
+     *
+     * @param mes nou mes
+     */
     public void setMes(int mes) { this.mes = mes; }
 
-    /** @return l'any */
+    /**
+     * Obté l'any.
+     *
+     * @return l'any
+     */
     public int getAny() { return any; }
 
-    /** @param any nou any */
+    /**
+     * Estableix un nou any.
+     *
+     * @param any nou any
+     */
     public void setAny(int any) { this.any = any; }
 }

@@ -8,8 +8,8 @@ package torneig;
  * <p>La classe permet crear jugadors amb les seves dades personals
  * i consultar el número de llicència associat.</p>
  *
- * author Derek Murillo Fernandez
- * version 1.0
+ * @author Derek Murillo Fernandez
+ * @version 1.0
  */
 public class Jugador extends Persona {
 

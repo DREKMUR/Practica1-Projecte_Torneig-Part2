@@ -2,17 +2,35 @@ package torneig;
 
 import java.util.Scanner;
 
+/**
+ * Clase principal d'entrada al programa de gestió del torneig.
+ * Permet crear jugadors, tornejos i gestionar partits mitjançant un menú.
+ *
+ * @author Diego Mejías Peña
+ * @author Derek Murillo Fernandez
+ * @version 1.0
+ */
 public class Main {
-	/**
-	 * @Author -- Diego Mejías Peña & Derek Murillo Fernandez
-	 * @Version -- 1.0
-	 */
+
     static Scanner scanner = new Scanner(System.in);
     
     static Jugador jugador1 = null;
     static Jugador jugador2 = null;
     static Torneig torneo = null;
 
+    /**
+     * Constructor privat per evitar la instanciació de la classe principal,
+     * ja que només conté mètodes estàtics.
+     */
+    private Main() {
+        throw new IllegalStateException("Utility class");
+    }
+
+    /**
+     * Mètode principal que executa el menú de l'aplicació.
+     *
+     * @param args arguments de la línia de comandes (no utilitzats)
+     */
     public static void main(String[] args) {
         int opcion = 0;
 

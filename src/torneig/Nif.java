@@ -35,15 +35,31 @@ public class Nif {
         return Integer.toString(dni) + lletra;
     }
 
-    /** @return el número de DNI */
+    /**
+     * Obté el número de DNI.
+     *
+     * @return el número de DNI
+     */
     public int getDni() { return dni; }
 
-    /** @param dni nou número de DNI */
+    /**
+     * Estableix un nou número de DNI.
+     *
+     * @param dni nou número de DNI
+     */
     public void setDni(int dni) { this.dni = dni; }
 
-    /** @return la lletra del NIF */
+    /**
+     * Obté la lletra del NIF.
+     *
+     * @return la lletra del NIF
+     */
     public char getLletra() { return lletra; }
 
-    /** @param lletra nova lletra del NIF */
+    /**
+     * Estableix una nova lletra per al NIF.
+     *
+     * @param lletra nova lletra del NIF
+     */
     public void setLletra(char lletra) { this.lletra = lletra; }
 }

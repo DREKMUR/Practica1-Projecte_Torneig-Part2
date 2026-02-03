@@ -35,21 +35,45 @@ public class Torneig {
         return "Data del torneig: " + data;
     }
 
-    /** @return la data del torneig */
+    /**
+     * Agafa la data del torneig.
+     * 
+     * @return la data del torneig 
+     */
     public Data getData() { return data; }
 
-    /** @param data nova data del torneig */
+    /** 
+     * Actualitza la data.
+     * 
+     * @param data nova data del torneig 
+     */
     public void setData(Data data) { this.data = data; }
 
-    /** @return els partits jugats */
+    /** 
+     * Agafa tots els partits jugats.
+     * 
+     * @return els partits jugats 
+     */
     public Partit getPartitsJugats() { return partitsJugats; }
 
-    /** @param partitsJugats nous partits jugats */
+    /** 
+     * Actualitza els partits jugats.
+     * 
+     * @param partitsJugats nous partits jugats 
+     */
     public void setPartitsJugats(Partit partitsJugats) { this.partitsJugats = partitsJugats; }
 
-    /** @return el guanyador del torneig */
+    /**
+     * Agafa el guanyador del torneig.
+     * 
+     * @return el guanyador del torneig 
+     */
     public Jugador getGuanyador() { return guanyador; }
 
-    /** @param guanyador nou guanyador del torneig */
+    /** 
+     * Actualitza el guanyador.
+     * 
+     * @param guanyador nou guanyador del torneig 
+     */
     public void setGuanyador(Jugador guanyador) { this.guanyador = guanyador; }
 }
