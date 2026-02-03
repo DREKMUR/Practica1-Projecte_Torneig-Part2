@@ -4,10 +4,9 @@ package torneig;
   @Version -- 1.0
 */
 public class Torneig {
-
 	Data data;
-	//Partit partitsJugats;
-	//Jugador guanyador;
+	Partit partitsJugats;
+	Jugador guanyador;
 
 	public Torneig(Data data) {
 		this.data = data;
@@ -26,7 +25,22 @@ public class Torneig {
 	public void setData(Data data) {
 		this.data = data;
 	}
-	
-	
 
+	public Partit getPartitsJugats() {
+		return partitsJugats;
+	}
+
+	public void setPartitsJugats(Partit partitsJugats) {
+		this.partitsJugats = partitsJugats;
+	}
+
+	public Jugador getGuanyador() {
+		return guanyador;
+	}
+
+	public void setGuanyador(Jugador guanyador) {
+		this.guanyador = guanyador;
+	}
+	
+	
 }
