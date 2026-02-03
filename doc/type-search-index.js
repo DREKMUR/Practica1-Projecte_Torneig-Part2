@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"torneig","l":"Jugador"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"torneig","l":"Data"},{"p":"torneig","l":"Jugador"},{"p":"torneig","l":"Main"},{"p":"torneig","l":"Marcador"},{"p":"torneig","l":"Nif"},{"p":"torneig","l":"Partit"},{"p":"torneig","l":"Persona"},{"p":"torneig","l":"Torneig"}];updateSearchResults();
